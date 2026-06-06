@@ -1,0 +1,46 @@
+.gallery-hero {
+  background-image: linear-gradient(90deg, rgba(25, 8, 7, 0.92), rgba(74, 21, 17, 0.38)), url('https://source.unsplash.com/1800x1000/?street-food,indian-food');
+}
+
+.gallery-card {
+  border-radius: 8px;
+  box-shadow: var(--soft-shadow);
+  height: 320px;
+  margin: 0;
+  overflow: hidden;
+  position: relative;
+}
+
+.gallery-card img {
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.45s ease, filter 0.45s ease;
+  width: 100%;
+}
+
+.gallery-card figcaption {
+  align-items: center;
+  background: linear-gradient(0deg, rgba(25, 8, 7, 0.9), rgba(74, 21, 17, 0.05));
+  bottom: 0;
+  color: #fff;
+  display: flex;
+  font-family: var(--heading-font);
+  font-size: 1.2rem;
+  font-weight: 800;
+  gap: 0.75rem;
+  left: 0;
+  padding: 4rem 1.3rem 1.3rem;
+  position: absolute;
+  right: 0;
+  transform: translateY(12px);
+  transition: transform 0.3s ease;
+}
+
+.gallery-card:hover img {
+  filter: saturate(1.12);
+  transform: scale(1.08);
+}
+
+.gallery-card:hover figcaption {
+  transform: translateY(0);
+}

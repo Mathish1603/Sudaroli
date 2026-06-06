@@ -1,0 +1,110 @@
+<section class="hero-section d-flex align-items-center">
+  <div class="hero-overlay"></div>
+  <div class="container position-relative">
+    <div class="row">
+      <div class="col-lg-8 col-xl-7 text-white animate-rise">
+        <span class="eyebrow">South Indian Evening Special</span>
+        <h1>Sudaroli Evening Parotta Stall</h1>
+        <p class="lead">Fresh, Hot &amp; Delicious Parottas Every Evening</p>
+        <div class="d-flex flex-wrap gap-3 mt-4">
+          <a routerLink="/menu" class="btn btn-brand btn-lg"><i class="fa-solid fa-book-open me-2"></i>View Menu</a>
+          <a routerLink="/contact" class="btn btn-outline-light btn-lg"><i class="fa-solid fa-phone me-2"></i>Contact Us</a>
+        </div>
+      </div>
+    </div>
+    
+  </div>
+</section>
+
+<section class="section-padding welcome-section">
+  <div class="container">
+    <div class="row align-items-center g-5">
+      <div class="col-lg-6">
+        <img class="img-fluid rounded-4 shadow-soft" src="assets/foods/banner1.png" alt="Fresh South Indian food served hot">
+      </div>
+      <div class="col-lg-6">
+        <span class="section-kicker">Welcome</span>
+        <h2>Evening comfort food made with heart.</h2>
+        <p>Sudaroli Evening Parotta Stall brings the familiar joy of hot parottas, fragrant salna, and cheerful service to your dinner routine. Every plate is prepared with care, speed, and the unmistakable warmth of a neighborhood food stall.</p>
+        <div class="hours-strip mt-4">
+          <i class="fa-regular fa-clock"></i>
+          <div>
+            <strong>Open Daily</strong>
+            <span>12:00 PM - 11:00 PM</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section-padding bg-warm">
+  <div class="container">
+    <div class="section-title text-center">
+      <span class="section-kicker">Why Choose Us</span>
+      <h2>Simple food, serious flavor.</h2>
+    </div>
+    <div class="row g-4">
+      <div class="col-md-4" *ngFor="let reason of reasons">
+        <article class="feature-card h-100">
+          <i class="fa-solid {{ reason.icon }}"></i>
+          <h3>{{ reason.title }}</h3>
+          <p>{{ reason.text }}</p>
+        </article>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section-padding">
+  <div class="container">
+    <div class="section-title text-center">
+      <span class="section-kicker">Popular Dishes</span>
+      <h2>Customer favorites from the tawa.</h2>
+    </div>
+    <div class="row g-4">
+      <div class="col-md-6 col-lg-4" *ngFor="let dish of popularDishes">
+        <article class="food-card h-100">
+          <img [src]="dish.image" [alt]="dish.name">
+          <div class="food-card-body">
+            <h3>{{ dish.name }}</h3>
+            <p>{{ dish.text }}</p>
+          </div>
+        </article>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section-padding reviews-section">
+  <div class="container">
+    <div class="section-title text-center">
+      <span class="section-kicker">Customer Reviews</span>
+      <h2>What regulars say.</h2>
+    </div>
+    <div class="row g-4">
+      <div class="col-md-4" *ngFor="let review of reviews">
+        <article class="review-card h-100">
+          <div class="stars"><i class="fa-solid fa-star" *ngFor="let star of [1,2,3,4,5]"></i></div>
+          <p>"{{ review.text }}"</p>
+          <strong>{{ review.name }}</strong>
+        </article>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section-padding opening-section">
+  <div class="container">
+    <div class="opening-panel">
+      <div>
+        <span class="section-kicker">Opening Hours</span>
+        <h2>Hot parottas every evening.</h2>
+      </div>
+      <div class="opening-time">
+        <i class="fa-solid fa-moon"></i>
+        <span>Daily: 12:00 PM - 11:00 PM</span>
+      </div>
+    </div>
+  </div>
+</section>

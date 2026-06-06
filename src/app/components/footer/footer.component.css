@@ -1,0 +1,70 @@
+.footer-section {
+  background: linear-gradient(135deg, #190807, #5b1711);
+  padding: 4rem 0 1.25rem;
+}
+
+.footer-section h3,
+.footer-section h4 {
+  font-family: var(--heading-font);
+  color: rgba(255, 250, 240, 0.78);
+  font-weight: 800;
+  margin-bottom: 1rem;
+}
+
+.footer-text,
+.footer-section p,
+.footer-links a {
+  color: rgba(255, 250, 240, 0.78);
+}
+
+.footer-links {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-links li {
+  margin-bottom: 0.6rem;
+}
+
+.footer-links a {
+  text-decoration: none;
+  transition: color 0.25s ease, padding-left 0.25s ease;
+}
+
+.footer-links a:hover {
+  color: #fff;
+  padding-left: 4px;
+}
+
+.social-links {
+  display: flex;
+  gap: 0.7rem;
+  margin-top: 1.25rem;
+}
+
+.social-links a {
+  align-items: center;
+  background: rgba(255, 255, 255, 0.11);
+  border-radius: 50%;
+  color: #fff;
+  display: inline-flex;
+  height: 40px;
+  justify-content: center;
+  text-decoration: none;
+  transition: background 0.25s ease, transform 0.25s ease;
+  width: 40px;
+}
+
+.social-links a:hover {
+  background: var(--brand-orange);
+  transform: translateY(-3px);
+}
+
+.footer-bottom {
+  border-top: 1px solid rgba(255, 255, 255, 0.12);
+  color: rgba(255, 250, 240, 0.7);
+  font-size: 0.92rem;
+  margin-top: 2.5rem;
+  padding-top: 1.25rem;
+  text-align: center;
+}

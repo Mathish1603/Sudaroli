@@ -1,0 +1,90 @@
+.contact-hero {
+  background-image: linear-gradient(90deg, rgba(25, 8, 7, 0.92), rgba(74, 21, 17, 0.38)), url('https://source.unsplash.com/1800x1000/?restaurant-front,indian-food');
+}
+
+.contact-panel,
+.contact-form {
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: var(--soft-shadow);
+  padding: clamp(1.4rem, 4vw, 2rem);
+}
+
+.contact-item {
+  align-items: flex-start;
+  display: flex;
+  gap: 1rem;
+  margin-top: 1.4rem;
+}
+
+.contact-item i {
+  align-items: center;
+  background: rgba(255, 183, 3, 0.17);
+  border-radius: 50%;
+  color: var(--brand-orange);
+  display: inline-flex;
+  flex: 0 0 auto;
+  height: 44px;
+  justify-content: center;
+  width: 44px;
+}
+
+.contact-item span {
+  color: var(--muted);
+  display: block;
+}
+
+.form-control {
+  border: 1px solid rgba(74, 21, 17, 0.18);
+  border-radius: 8px;
+  padding: 0.85rem 1rem;
+}
+
+.form-control:focus {
+  border-color: var(--brand-orange);
+  box-shadow: 0 0 0 0.2rem rgba(255, 183, 3, 0.22);
+}
+
+.map-card {
+  align-items: center;
+  background: #fff;
+  border: 1px solid rgba(74, 21, 17, 0.1);
+  border-radius: 8px;
+  box-shadow: var(--soft-shadow);
+  overflow: hidden;
+}
+
+.map-card-header {
+  align-items: center;
+  background: linear-gradient(135deg, rgba(255, 183, 3, 0.18), rgba(122, 31, 22, 0.08));
+  display: flex;
+  gap: 1rem;
+  padding: 1.4rem;
+}
+
+.map-card-header i {
+  color: var(--brand-orange);
+  font-size: 1.8rem;
+}
+
+.map-card-header h2 {
+  font-size: clamp(1.5rem, 3vw, 2rem);
+  margin: 0;
+}
+
+.map-card-header p {
+  margin: 0;
+}
+
+.map-frame {
+  aspect-ratio: 16 / 9;
+  min-height: 320px;
+  width: 100%;
+}
+
+.map-frame iframe {
+  border: 0;
+  display: block;
+  height: 100%;
+  width: 100%;
+}

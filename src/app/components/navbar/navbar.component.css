@@ -1,0 +1,40 @@
+.sudaroli-navbar {
+  background: rgba(25, 8, 7, 0.97);
+  box-shadow: 0 8px 28px rgba(25, 8, 7, 0.24);
+  backdrop-filter: blur(14px);
+}
+
+.brand-mark {
+  align-items: center;
+  background: var(--brand-orange);
+  border-radius: 50%;
+  color: var(--brand-brown-dark);
+  display: inline-flex;
+  height: 38px;
+  justify-content: center;
+  width: 38px;
+}
+
+.navbar-brand {
+  color: var(--brand-orange);
+  font-family: var(--heading-font);
+  font-size: 1.35rem;
+  font-weight: 800;
+  letter-spacing: 0;
+}
+
+.nav-link {
+  border-radius: 999px;
+  color: var(--cream);
+  font-weight: 600;
+  margin: 0.15rem;
+  padding: 0.55rem 0.9rem !important;
+  transition: background 0.25s ease, color 0.25s ease, transform 0.25s ease;
+}
+
+.nav-link:hover,
+.nav-link.active {
+  background: var(--brand-orange);
+  color: var(--brand-brown-dark);
+  transform: translateY(-1px);
+}

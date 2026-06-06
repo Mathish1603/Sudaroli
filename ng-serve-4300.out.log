@@ -1,0 +1,76 @@
+
+Initial Chunk Files   | Names         |  Raw Size
+vendor.js             | vendor        |   2.56 MB |
+polyfills.js          | polyfills     | 252.54 kB |
+styles.css, styles.js | styles        | 154.00 kB |
+main.js               | main          |  93.67 kB |
+runtime.js            | runtime       |   6.49 kB |
+
+| Initial Total |   3.06 MB
+
+Build at: 2026-06-05T09:56:30.466Z - Hash: 13b24aa7411d2b5f - Time: 26914ms
+
+** Angular Live Development Server is listening on 127.0.0.1:4300, open your browser on http://127.0.0.1:4300/ **
+
+
+√ Compiled successfully.
+
+Initial Chunk Files | Names   | Raw Size
+main.js             | main    | 93.67 kB |
+runtime.js          | runtime |  6.49 kB |
+
+3 unchanged chunks
+
+Build at: 2026-06-05T09:56:45.922Z - Hash: 73c75e2036a5c914 - Time: 9387ms
+
+√ Compiled successfully.
+
+Initial Chunk Files | Names   | Raw Size
+main.js             | main    | 94.26 kB |
+runtime.js          | runtime |  6.49 kB |
+
+3 unchanged chunks
+
+Build at: 2026-06-05T09:56:48.263Z - Hash: 21a9b608d51793f8 - Time: 2182ms
+
+√ Compiled successfully.
+
+Initial Chunk Files | Names   | Raw Size
+main.js             | main    | 94.26 kB |
+runtime.js          | runtime |  6.49 kB |
+
+3 unchanged chunks
+
+Build at: 2026-06-05T09:58:16.882Z - Hash: 70023524599d7204 - Time: 3363ms
+
+√ Compiled successfully.
+
+Initial Chunk Files | Names   | Raw Size
+main.js             | main    | 94.25 kB |
+runtime.js          | runtime |  6.49 kB |
+
+3 unchanged chunks
+
+Build at: 2026-06-05T09:58:22.439Z - Hash: 406418ce01d5ddc5 - Time: 2607ms
+
+√ Compiled successfully.
+
+Initial Chunk Files | Names   | Raw Size
+main.js             | main    | 94.25 kB |
+runtime.js          | runtime |  6.49 kB |
+
+3 unchanged chunks
+
+Build at: 2026-06-05T09:58:24.639Z - Hash: 3a4dfa8da85fefa9 - Time: 2019ms
+
+√ Compiled successfully.
+
+Initial Chunk Files | Names   | Raw Size
+main.js             | main    | 94.26 kB |
+runtime.js          | runtime |  6.49 kB |
+
+3 unchanged chunks
+
+Build at: 2026-06-05T09:58:29.874Z - Hash: 487f44f78dc6b861 - Time: 3338ms
+
+√ Compiled successfully.

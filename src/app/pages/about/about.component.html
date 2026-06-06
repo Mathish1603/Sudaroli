@@ -1,0 +1,61 @@
+<header class="page-hero about-hero">
+  <div class="container">
+    <span class="eyebrow">About Us</span>
+    <h1>Rooted in local taste and evening tradition.</h1>
+  </div>
+</header>
+
+<section class="section-padding">
+  <div class="container">
+    <div class="row g-5 align-items-center">
+      <div class="col-lg-6">
+        <span class="section-kicker">Our History</span>
+        <h2>From a humble stall to a favorite dinner stop.</h2>
+        <p>Sudaroli Evening Parotta Stall began with a simple promise: serve hot, soft parottas at fair prices when the town slows down for dinner. Over the years, our stall has become a familiar place for people who want filling South Indian food made fresh in front of them.</p>
+        <p>Our menu stays focused because we believe a few dishes, made well every day, can build real trust.</p>
+      </div>
+      <div class="col-lg-6">
+        <img class="img-fluid rounded-4 shadow-soft" src="https://images.unsplash.com/photo-1552566626-52f8b828add9?auto=format&fit=crop&w=1000&q=80" alt="Friendly restaurant dining space">
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section-padding bg-warm">
+  <div class="container">
+    <div class="row g-4">
+      <div class="col-md-6">
+        <article class="mission-card h-100">
+          <i class="fa-solid fa-bullseye"></i>
+          <h2>Mission</h2>
+          <p>To serve fresh, affordable, and delicious parottas every evening with warm hospitality and dependable quality.</p>
+        </article>
+      </div>
+      <div class="col-md-6">
+        <article class="mission-card h-100">
+          <i class="fa-solid fa-eye"></i>
+          <h2>Vision</h2>
+          <p>To become the most trusted evening parotta destination in the neighborhood while keeping our food honest and homely.</p>
+        </article>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section-padding">
+  <div class="container">
+    <div class="section-title text-center">
+      <span class="section-kicker">Our Promise</span>
+      <h2>Care in every plate.</h2>
+    </div>
+    <div class="row g-4">
+      <div class="col-md-4" *ngFor="let value of values">
+        <article class="feature-card h-100">
+          <i class="fa-solid {{ value.icon }}"></i>
+          <h3>{{ value.title }}</h3>
+          <p>{{ value.text }}</p>
+        </article>
+      </div>
+    </div>
+  </div>
+</section>

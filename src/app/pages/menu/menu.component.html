@@ -1,0 +1,29 @@
+<header class="page-hero menu-hero">
+  <div class="container">
+    <span class="eyebrow">Menu</span>
+    <h1>Hot parottas and flavorful sides.</h1>
+  </div>
+</header>
+
+<section class="section-padding" *ngFor="let category of categories; let first = first" [class.bg-warm]="!first">
+  <div class="container">
+    <div class="section-title text-center">
+      <span class="section-kicker">{{ category.title }}</span>
+      <h2>{{ category.title === 'Parotta' ? 'Fresh from the tawa.' : category.title === 'Side Dishes' ? 'Perfect pairs for every parotta.' : 'Hot extras from the evening counter.' }}</h2>
+    </div>
+    <div class="row g-4">
+      <div class="col-sm-6 col-lg-4" *ngFor="let item of category.items">
+        <article class="menu-card h-100">
+          <img [src]="item.image" [alt]="item.name">
+          <div class="menu-card-body">
+            <div class="d-flex justify-content-between align-items-start gap-3">
+              <h3>{{ item.name }}</h3>
+              <span class="price">{{ item.price }}</span>
+            </div>
+            <p>{{ item.description }}</p>
+          </div>
+        </article>
+      </div>
+    </div>
+  </div>
+</section>

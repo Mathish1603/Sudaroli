@@ -1,0 +1,75 @@
+.hero-section {
+  background: linear-gradient(90deg, rgba(25, 8, 7, 0.92), rgba(74, 21, 17, 0.38)), url('https://source.unsplash.com/1800x1000/?parotta,south-indian-food') center/cover;
+  min-height: calc(100vh - 76px);
+  overflow: hidden;
+  position: relative;
+}
+
+.hero-section h1 {
+  font-size: clamp(2.7rem, 8vw, 5.9rem);
+  line-height: 0.98;
+}
+
+.hero-section .lead {
+  color: #fff2cf;
+  font-size: clamp(1.15rem, 2vw, 1.5rem);
+  max-width: 660px;
+}
+
+.hours-strip,
+.opening-panel,
+.opening-time {
+  align-items: center;
+  display: flex;
+  gap: 1rem;
+}
+
+.hours-strip {
+  background: #fff;
+  border-left: 5px solid var(--brand-orange);
+  border-radius: 8px;
+  box-shadow: var(--soft-shadow);
+  max-width: 360px;
+  padding: 1rem 1.15rem;
+}
+
+.hours-strip i,
+.opening-time i {
+  color: var(--brand-orange);
+  font-size: 1.5rem;
+}
+
+.hours-strip span {
+  color: var(--muted);
+  display: block;
+}
+
+.opening-panel {
+  background: var(--brand-brown);
+  border-radius: 8px;
+  color: #fff;
+  justify-content: space-between;
+  padding: clamp(1.5rem, 5vw, 3rem);
+}
+
+.opening-panel h2 {
+  color: #fff;
+}
+
+.opening-time {
+  background: rgba(255, 250, 240, 0.12);
+  border-radius: 8px;
+  font-weight: 800;
+  padding: 1rem 1.25rem;
+}
+
+@media (max-width: 767px) {
+  .hero-section {
+    min-height: 720px;
+  }
+
+  .opening-panel {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+}
