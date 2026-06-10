@@ -1,13 +1,22 @@
 .hero-section {
-  background: linear-gradient(90deg, rgba(25, 8, 7, 0.92), rgba(74, 21, 17, 0.38)), url('https://source.unsplash.com/1800x1000/?parotta,south-indian-food') center/cover;
+  background:
+    linear-gradient(
+      90deg,
+      rgba(25, 8, 7, 0.92),
+      rgba(74, 21, 17, 0.38)
+    ),
+    url('https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=1800&q=80')
+    center center / cover no-repeat;
+
   min-height: calc(100vh - 76px);
   overflow: hidden;
   position: relative;
 }
-
 .hero-section h1 {
   font-size: clamp(2.7rem, 8vw, 5.9rem);
   line-height: 0.98;
+  color: #fff2cf;
+
 }
 
 .hero-section .lead {

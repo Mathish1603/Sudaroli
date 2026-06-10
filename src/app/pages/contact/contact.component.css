@@ -1,5 +1,15 @@
 .contact-hero {
-  background-image: linear-gradient(90deg, rgba(25, 8, 7, 0.92), rgba(74, 21, 17, 0.38)), url('https://source.unsplash.com/1800x1000/?restaurant-front,indian-food');
+  background-image:
+    linear-gradient(
+      90deg,
+      rgba(25, 8, 7, 0.92),
+      rgba(74, 21, 17, 0.38)
+    ),
+    url('/assets/foods/banner2.png');
+
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .contact-panel,

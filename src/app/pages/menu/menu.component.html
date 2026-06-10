@@ -1,7 +1,7 @@
 <header class="page-hero menu-hero">
   <div class="container">
     <span class="eyebrow">Menu</span>
-    <h1>Hot parottas and flavorful sides.</h1>
+    <h1>Hot Parottas, Delicious Sides & Fresh Biryani.</h1>
   </div>
 </header>
 
@@ -9,17 +9,36 @@
   <div class="container">
     <div class="section-title text-center">
       <span class="section-kicker">{{ category.title }}</span>
-      <h2>{{ category.title === 'Parotta' ? 'Fresh from the tawa.' : category.title === 'Side Dishes' ? 'Perfect pairs for every parotta.' : 'Hot extras from the evening counter.' }}</h2>
+
+      <h2>
+  {{
+    category.title === 'Parotta'
+      ? 'Fresh from the tawa.'
+      : category.title === 'Side Dishes'
+      ? 'Perfect pairs for every parotta.'
+      : category.title === 'Gravy'
+      ? 'Delicious gravies to complement every meal.'
+      : category.title === 'Lunch Specials'
+      ? 'Aromatic biryanis served fresh every afternoon.'
+      : 'Hot extras from the evening counter.'
+  }}
+</h2>
     </div>
+
     <div class="row g-4">
       <div class="col-sm-6 col-lg-4" *ngFor="let item of category.items">
         <article class="menu-card h-100">
-          <img [src]="item.image" [alt]="item.name">
+
+          <div class="menu-image">
+            <img [src]="item.image" [alt]="item.name" />
+          </div>
+
           <div class="menu-card-body">
             <div class="d-flex justify-content-between align-items-start gap-3">
               <h3>{{ item.name }}</h3>
               <span class="price">{{ item.price }}</span>
             </div>
+
             <p>{{ item.description }}</p>
           </div>
         </article>

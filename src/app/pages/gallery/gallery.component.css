@@ -1,5 +1,15 @@
 .gallery-hero {
-  background-image: linear-gradient(90deg, rgba(25, 8, 7, 0.92), rgba(74, 21, 17, 0.38)), url('https://source.unsplash.com/1800x1000/?street-food,indian-food');
+  background-image:
+    linear-gradient(
+      90deg,
+      rgba(25, 8, 7, 0.92),
+      rgba(74, 21, 17, 0.38)
+    ),
+    url('https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=1800&q=80');
+
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .gallery-card {

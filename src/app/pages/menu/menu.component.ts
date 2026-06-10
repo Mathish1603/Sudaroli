@@ -24,39 +24,39 @@ export class MenuComponent {
       items: [
         {
           name: 'Plain Parotta',
-          description: 'Classic layered parotta, soft inside and crisp outside.',
+          description: 'Traditional South Indian layered parotta, soft, flaky, and freshly cooked on the tawa.',
+          price: 'Rs. 10',
+          image: 'assets/foods/parotta.png'
+        },
+        {
+          name: 'Wheat Parotta',
+          description: 'Healthy whole-wheat parotta with soft layers and a rich homemade flavor.',
+          price: 'Rs. 25',
+          image: 'assets/foods/wheatparotta.png'
+        },
+        {
+          name: 'Bun Parotta',
+          description: 'Thick, fluffy, and buttery parotta with a soft texture, perfect with salna and gravies.',
+          price: 'Rs. 25',
+          image: 'assets/foods/bunparotta.png'
+        },
+        {
+          name: 'Nool Parotta',
+          description: 'Delicate shredded parotta made with fine layers, soft and light with every bite.',
+          price: 'Rs. 30',
+          image: 'assets/foods/noolparotta.png'
+        },
+        {
+          name: 'Kizhi Parotta',
+          description: 'Parotta wrapped in banana leaf with flavorful gravy and spices for an authentic taste.',
+          price: 'Rs. 120',
+          image: 'assets/foods/kizhiparotta.png'
+        },
+        {
+          name: 'Chapathi',
+          description: 'Soft whole-wheat flatbread served fresh and ideal with gravies and side dishes.',
           price: 'Rs. 20',
-          image: 'assets/foods/kada65.png'
-        },
-        {
-          name: 'Egg Parotta',
-          description: 'Flaky parotta finished with egg and mild spices.',
-          price: 'Rs. 45',
-          image: 'assets/foods/kada65.png'
-        },
-        {
-          name: 'Kothu Parotta',
-          description: 'Chopped parotta tossed with egg, onion, herbs, and masala.',
-          price: 'Rs. 80',
-          image: 'assets/foods/kada65.png'
-        },
-        {
-          name: 'Chilli Parotta',
-          description: 'Crisp parotta pieces tossed in a spicy chilli sauce.',
-          price: 'Rs. 90',
-          image: 'assets/foods/kada65.png'
-        },
-        {
-          name: 'Veg Kothu Parotta',
-          description: 'Vegetable kothu with cabbage, carrot, onion, and house masala.',
-          price: 'Rs. 70',
-          image: 'assets/foods/kada65.png'
-        },
-        {
-          name: 'Veg Kothu Parotta',
-          description: 'Vegetable kothu with cabbage, carrot, onion, and house masala.',
-          price: 'Rs. 70',
-          image: 'assets/foods/kada65.png'
+          image: 'assets/foods/chapathi.png'
         }
       ]
     },
@@ -64,45 +64,68 @@ export class MenuComponent {
       title: 'Side Dishes',
       items: [
         {
-          name: 'Chicken Salna',
-          description: 'Aromatic chicken salna with warm spices and rich gravy.',
-          price: 'Rs. 60',
+          name: 'Mutton Chukka',
+          description: 'Tender mutton slow-cooked with aromatic spices and roasted to perfection.',
+          price: 'Rs. 150',
           image: 'assets/foods/muttonchukka.png'
-
         },
         {
-          name: 'Mutton Salna',
-          description: 'Deep, peppery mutton salna for a hearty parotta plate.',
-          price: 'Rs. 90',
-          image: 'assets/foods/muttonchukka.png'
-
+          name: 'Chicken Chukka',
+          description: 'Juicy chicken stir-fried with traditional spices, onions, and curry leaves.',
+          price: 'Rs. 80',
+          image: 'assets/foods/chickenchukka.png'
         },
+        {
+          name: 'Liver Chukka',
+          description: 'Fresh liver sautéed with onions, pepper, and authentic South Indian spices.',
+          price: 'Rs. 120',
+          image: 'assets/foods/liverchukka.png'
+        }
+      ]
+    },
+    {
+      title: 'Gravy',
+      items: [
         {
           name: 'Chicken Gravy',
-          description: 'Thick chicken gravy cooked with onion, tomato, and masala.',
-          price: 'Rs. 100',
-          image: 'assets/foods/muttonchukka.png'
-
+          description: 'Rich and flavorful chicken curry prepared with traditional spices and herbs.',
+          price: 'Rs. 80',
+          image: 'assets/foods/chickengravy.png'
         },
         {
-          name: 'Egg Curry',
-          description: 'Boiled egg simmered in a comforting South Indian curry.',
-          price: 'Rs. 50',
-          image: 'assets/foods/muttonchukka.png'
-        }
-        ,
+          name: 'Mutton Gravy',
+          description: 'Tender mutton cooked in a thick aromatic gravy bursting with authentic flavors.',
+          price: 'Rs. 120',
+          image: 'assets/foods/muttongravy.png'
+        },
         {
-          name: 'Egg Curry',
-          description: 'Boiled egg simmered in a comforting South Indian curry.',
-          price: 'Rs. 50',
-          image: 'assets/foods/muttonchukka.png'
+          name: 'Egg Gravy',
+          description: 'Boiled eggs simmered in a mildly spiced onion and tomato-based gravy.',
+          price: 'Rs. 60',
+          image: 'assets/foods/egggravy.png'
         }
-        ,
+      ]
+    },
+    {
+      title: 'Lunch Specials',
+      items: [
         {
-          name: 'Egg Curry',
-          description: 'Boiled egg simmered in a comforting South Indian curry.',
-          price: 'Rs. 50',
-          image: 'assets/foods/muttonchukka.png'
+          name: 'Chicken Biryani',
+          description: 'Aromatic basmati rice cooked with tender chicken and traditional biryani spices.',
+          price: 'Rs. 120',
+          image: 'assets/foods/chickenbiriyani.png'
+        },
+        {
+          name: 'Mutton Biryani',
+          description: 'Flavorful basmati rice layered with succulent mutton and slow-cooked to perfection.',
+          price: 'Rs. 180',
+          image: 'assets/foods/muttonbiriyani.png'
+        },
+        {
+          name: 'Egg Biryani',
+          description: 'Fragrant biryani rice prepared with boiled eggs, herbs, and aromatic spices.',
+          price: 'Rs. 90',
+          image: 'assets/foods/eggbiriyani.png'
         }
       ]
     },
@@ -111,46 +134,39 @@ export class MenuComponent {
       items: [
         {
           name: 'Omelette',
-          description: 'Fresh egg omelette with onion, chilli, pepper, and coriander.',
-          price: 'Rs. 35',
-          image: 'assets/foods/muttonchukka.png'
+          description: 'Fresh egg omelette prepared with onions, green chillies, pepper, and coriander.',
+          price: 'Rs. 20',
+          image: 'assets/foods/omlate.png'
         },
         {
-          name: 'Kada Fry',
-          description: 'Spicy quail fry roasted with masala, curry leaves, and pepper.',
-          price: 'Rs. 130',
-          image: 'assets/foods/muttonchukka.png'
-
+          name: 'Kalaki',
+          description: 'Soft, creamy, and slightly runny egg dish seasoned with pepper and spices.',
+          price: 'Rs. 20',
+          image: 'assets/foods/kalaki.png'
         },
         {
-          name: 'Liver Fry',
-          description: 'Tender liver pieces cooked dry with pepper, onion, and house spices.',
-          price: 'Rs. 90',
-          image: 'assets/foods/muttonchukka.png'
-
+          name: 'Halfboil',
+          description: 'Perfectly half-cooked egg with a soft yolk, lightly seasoned with pepper.',
+          price: 'Rs. 120',
+          image: 'assets/foods/halfboil.png'
+        },
+        {
+          name: 'Kada 65',
+          description: 'Crispy quail 65 marinated in traditional spices and fried until golden brown.',
+          price: 'Rs. 100',
+          image: 'assets/foods/kada65.png'
+        },
+        {
+          name: 'Liver 65',
+          description: 'Spicy liver fry coated with flavorful masala and tossed with curry leaves.',
+          price: 'Rs. 60',
+          image: 'assets/foods/liver65.png'
         },
         {
           name: 'Chicken 65',
-          description: 'Crispy, spicy chicken bites tossed with chilli, garlic, and curry leaves.',
-          price: 'Rs. 120',
-          image: 'assets/foods/muttonchukka.png'
-
-        }
-        ,
-        {
-          name: 'Chicken 65',
-          description: 'Crispy, spicy chicken bites tossed with chilli, garlic, and curry leaves.',
-          price: 'Rs. 120',
-          image: 'assets/foods/muttonchukka.png'
-
-        }
-        ,
-        {
-          name: 'Chicken 65',
-          description: 'Crispy, spicy chicken bites tossed with chilli, garlic, and curry leaves.',
-          price: 'Rs. 120',
-          image: 'assets/foods/muttonchukka.png'
-
+          description: 'Crispy boneless chicken marinated in signature spices and deep-fried to perfection.',
+          price: 'Rs. 80',
+          image: 'assets/foods/chicken65.png'
         }
       ]
     }
